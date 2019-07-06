@@ -8,6 +8,8 @@
     tools:context=".MainActivity">
 
 
+
+
     <ImageView
         android:id="@+id/ivsplash"
         android:layout_width="380dp"
@@ -65,6 +67,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </android.support.constraint.ConstraintLayout>
